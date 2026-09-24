@@ -1,0 +1,17 @@
+generated: '2026-09-24'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: ametrine.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec  9 02:54:44 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: ametrine.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

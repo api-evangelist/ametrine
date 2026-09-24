@@ -1,7 +1,6 @@
 aid: ametrine
 name: Ametrine
-description: 'Ametrine is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Ametrine is a mining and metals company based in the Oriente region, specializing in the extraction and processing of gemstones, particularly the rare mineral ametrine. Established in 1990, the family-owned business focuses on sustainable, non‑destructive mining practices and offers a range of mineral products online. The company provides APIs for product data, mining operations, and corporate information to integrate with partners and developers.'
 url: https://raw.githubusercontent.com/api-evangelist/ametrine/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-24'
 modified: '2026-09-24'
 tags:
 - Company
+- Mining
+- Gemstones
+- Sustainable
+- API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ametrine-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://ametrine.com/
